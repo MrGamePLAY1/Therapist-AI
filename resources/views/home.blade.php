@@ -1,6 +1,8 @@
 <!-- resources/views/home.blade.php -->
- <!-- php artisan view:clear
+ <!-- 
+    php artisan view:clear
     php artisan cache:clear
+    php artisan serve
  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    <div class="chat-container">
+    < class="chat-container">
         <h3></h3>
         <div class="chat-box" id="chat-box"></div>
         <div class="input-area">
