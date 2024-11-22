@@ -16,7 +16,7 @@
         <div class="hero-content">
             <h1 class="radley-regular">Therapist AI</h1>
             <p class="radley-regular">Providing compassionate, AI-powered mental health support, accessible anytime and anywhere. Join us to explore ways to improve your mental well-being.</p>
-            <a href="{{ url('/home') }}" class="hero-button">Get Started</a>
+            <a href="{{ url('/chat') }}" class="hero-button">Get Started</a>
         </div>
     </div>
 </body>

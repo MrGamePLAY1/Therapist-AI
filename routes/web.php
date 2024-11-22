@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ChatController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +19,6 @@ Route::get('/', function () {
     return view('splash');
 });
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/chat', [HomeController::class, 'index'])->name('chat');
+Route::post('/api/chat', [ChatController::class, 'sendMessage']);
 
