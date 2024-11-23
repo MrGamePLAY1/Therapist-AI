@@ -9,17 +9,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Chat Interface</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
     <div class="chat-container">
-        <h3> </h3>
+        <h3>Chat Interface</h3>
         <div class="chat-box" id="chat-box"></div>
-        <div class="input-area">
-            <input type="text" id="user-input" placeholder="Type a message...">
-            <button id="send-button">Send</button>
-        </div>
+        <form id="chat-form" method="POST" action="/api/chat">
+            @csrf
+            <div class="input-area">
+                <input type="text" id="user-input" name="message" placeholder="Type a message...">
+                <button type="submit" id="send-button">Send</button>
+            </div>
+        </form>
     </div>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

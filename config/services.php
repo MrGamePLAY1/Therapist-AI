@@ -22,7 +22,7 @@ return [
     ],
 
     'openai' => [
-        'api_key' => env('THERAPIST_AI')
+        'api_key' => env('OPENAI_API_KEY')
     ],
 
     'postmark' => [
