@@ -14,8 +14,11 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
+    <div class="top-container">
+        @include('navbar')
+    </div>
     <div class="chat-container">
-        <h3>Chat Interface</h3>
+        <h3></h3>
         <div class="chat-box" id="chat-box"></div>
         <form id="chat-form" method="POST" action="/api/chat">
             @csrf

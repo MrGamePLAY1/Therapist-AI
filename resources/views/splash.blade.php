@@ -10,8 +10,8 @@
     <title>Therapist AI</title>
 </head>
 
-<body class="splash-page"> <!-- Add a class to the body -->
-    <!-- Hero Section -->
+<body class="splash-page"> 
+    @include('navbar')
     <div class="hero-section">
         <div class="hero-content">
             <h1 class="radley-regular">Therapist AI</h1>

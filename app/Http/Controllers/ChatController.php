@@ -16,7 +16,7 @@ class ChatController extends Controller
     {
         $messageText = $request->input('message');
         $apiKey = config('services.openai.api_key');
-        $assistantId = 'asst_at8tz6KvsUo0vwSsRHvDVXTY';
+        // $assistantId = 'asst_at8tz6KvsUo0vwSsRHvDVXTY';
 
         $response = Http::withOptions([
             'verify' => 'C:\xampp\apache\bin\curl-ca-bundle.crt',

@@ -15,6 +15,13 @@ body, html {
     padding: 20px;
 }
 
+.top-container {
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    border-radius: 8px; /* Add this line to round the corners of the top bar */
+}
+
 h3 {
     animation: fadeIn 0.5s ease-in-out;
     margin-bottom: 20px;
