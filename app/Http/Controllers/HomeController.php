@@ -10,4 +10,9 @@ class HomeController extends Controller
     {
         return view('chat');
     }
+
+    public function roadmap()
+    {
+        return view('roadmap');
+    }
 }

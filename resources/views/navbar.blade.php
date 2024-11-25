@@ -23,6 +23,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('/chat') }}">Chat</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/roadmap') }}">Roadmap</a>
+                </li>
             </ul>
         </div>
     </div>

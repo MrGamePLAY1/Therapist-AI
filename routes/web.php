@@ -19,6 +19,9 @@ Route::get('/', function () {
     return view('splash');
 });
 
+Route::get('/roadmap', [HomeController::class, 'roadmap'])->name('roadmap');
+
 Route::get('/chat', [HomeController::class, 'index'])->name('chat');
+
 Route::post('/api/chat', [ChatController::class, 'sendMessage']);
 
