@@ -18,6 +18,24 @@
             <p class="radley-regular">Providing compassionate, AI-powered mental health support, accessible anytime and anywhere. Join us to explore ways to improve your mental well-being.</p>
             <a href="{{ url('/chat') }}" class="hero-button">Get Started</a>
         </div>
+
+        <div class="content-page">
+            <div class="bubble">
+                <h2>Article Title</h2>
+                <p>This is a short description of the article or content.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="bubble">
+                <h2>Article Title</h2>
+                <p>This is a short description of the article or content.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="bubble">
+                <h2>Article Title</h2>
+                <p>This is a short description of the article or content.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
     </div>
 </body>
 
