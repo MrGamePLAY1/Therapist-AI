@@ -167,10 +167,10 @@ body.roadmap-page {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
-    background-image: url('/images/splash.jpg'); /* Correct path to your image */
-    color: #fff;
+    height: 50vh;
+    background: url('/images/about.jpg') no-repeat center center/cover;
     text-align: center;
+    color: #fff;
 }
 
 .about-hero-content {
