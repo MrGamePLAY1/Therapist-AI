@@ -15,4 +15,9 @@ class HomeController extends Controller
     {
         return view('roadmap');
     }
+
+    public function about()
+    {
+        return view('about');
+    }
 }

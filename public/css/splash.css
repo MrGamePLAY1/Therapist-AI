@@ -1,6 +1,7 @@
 /* app.css */
 html.splash-page, 
-body.splash-page {
+body.splash-page,
+body.about-page {
     height: 100%; /* Ensure body takes full height only on splash page */
     margin: 0; /* Remove default margin only on splash page */
     font-family: 'Radley', serif; /* Use the Radley font only on splash page */
@@ -73,7 +74,7 @@ body.roadmap-page {
 .roadmap-hero-content {
     max-width: 600px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
 }
 .roadmap-hero-content h1 {
@@ -112,6 +113,7 @@ body.roadmap-page {
 
 .content-page {
     display: flex;
+    border: 3px solid grey;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -130,6 +132,14 @@ body.roadmap-page {
     text-align: center;
 }
 
+.article-title {
+    color: #fff;
+}
+
+.article-text {
+    color: #fff;
+}
+
 .bubble h2 {
     margin-bottom: 10px;
 }
@@ -145,5 +155,61 @@ body.roadmap-page {
 }
 
 .bubble a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #0eb438;
+}
+
+
+
+/* About Styling */
+
+.about-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-image: url('/images/splash.jpg'); /* Correct path to your image */
+    color: #fff;
+    text-align: center;
+}
+
+.about-hero-content {
+    max-width: 700px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+.about-hero-content h1 {
+    font-size: 3rem;
+    margin: 0 0 10px;
+}
+
+.about-hero-content p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.about-section {
+    margin-top: 150px;
+    padding: 50px 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #444;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
 }

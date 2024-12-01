@@ -20,19 +20,19 @@
         </div>
 
         <div class="content-page">
-            <div class="bubble">
-                <h2>Article Title</h2>
-                <p>This is a short description of the article or content.</p>
+            <div class="bubble bg-dark">
+                <h2 class="article-title">Article Title</h2>
+                <p class="article-text">This is a short description of the article or content.</p>
                 <a href="#">Read more</a>
             </div>
-            <div class="bubble">
-                <h2>Article Title</h2>
-                <p>This is a short description of the article or content.</p>
+            <div class="bubble bg-dark">
+                <h2 class="article-title">Article Title</h2>
+                <p class="article-text">This is a short description of the article or content.</p>
                 <a href="#">Read more</a>
             </div>
-            <div class="bubble">
-                <h2>Article Title</h2>
-                <p>This is a short description of the article or content.</p>
+            <div class="bubble bg-dark">
+                <h2 class="article-title">Article Title</h2>
+                <p class="article-text">This is a short description of the article or content.</p>
                 <a href="#">Read more</a>
             </div>
         </div>

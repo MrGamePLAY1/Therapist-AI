@@ -21,6 +21,8 @@ Route::get('/', function () {
 
 Route::get('/roadmap', [HomeController::class, 'roadmap'])->name('roadmap');
 
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+
 Route::get('/chat', [HomeController::class, 'index'])->name('chat');
 
 Route::post('/api/chat', [ChatController::class, 'sendMessage']);
