@@ -17,17 +17,20 @@
     <div class="top-container">
         @include('navbar')
     </div>
-    <div class="chat-container">
-        <h3></h3>
-        <div class="chat-box" id="chat-box"></div>
-        <form id="chat-form" method="POST" action="/api/chat">
-            @csrf
-            <div class="input-area">
-                <input type="text" id="user-input" name="message" placeholder="Type a message...">
-                <button type="submit" id="send-button">Send</button>
-            </div>
-        </form>
-    </div>
+    <center>
+        <div class="chat-container">
+            <h3></h3>
+            <div class="chat-box" id="chat-box"></div>
+            <form id="chat-form" method="POST" action="/api/chat">
+                @csrf
+                <div class="input-area">
+                    <input type="text" id="user-input" name="message" placeholder="Type a message...">
+                    <button type="submit" id="send-button">Send</button>
+                </div>
+            </form>
+        </div>
+    </center>
+    
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
