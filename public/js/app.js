@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const text = "Hi {name}, Let's talk?";
+    const text = "Hey, Let's talk?";
     const h3Element = document.querySelector('h3');
     let index = 0;
 

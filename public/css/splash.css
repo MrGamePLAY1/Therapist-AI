@@ -1,7 +1,7 @@
 /* app.css */
 html.splash-page, 
-body.splash-page,
-body.about-page {
+body.splash-page
+ {
     height: 100%; /* Ensure body takes full height only on splash page */
     margin: 0; /* Remove default margin only on splash page */
     font-family: 'Radley', serif; /* Use the Radley font only on splash page */
@@ -168,6 +168,18 @@ body.roadmap-page {
 
 /* About Styling */
 
+
+html.about-page {
+    height: 100%; /* Ensure body takes full height only on splash page */
+    margin: 0; /* Remove default margin only on splash page */
+    font-family: 'Radley', serif; /* Use the Radley font only on splash page */
+
+}
+
+body.about-page {
+    background-color: #ececec;
+}
+
 .about-hero-section {
     display: flex;
     justify-content: center;
@@ -179,6 +191,7 @@ body.roadmap-page {
 }
 
 .about-hero-content {
+    font-family: 'Radley', serif; /* Use the Radley font only on splash page */
     max-width: 700px;
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
@@ -186,11 +199,13 @@ body.roadmap-page {
 }
 
 .about-hero-content h1 {
+    font-family: 'Radley', serif; /* Use the Radley font only on splash page */
     font-size: 3rem;
     margin: 0 0 10px;
 }
 
 .about-hero-content p {
+    font-family: 'Radley', serif; /* Use the Radley font only on splash page */
     font-size: 1.2rem;
     margin: 0;
 }
@@ -207,6 +222,7 @@ body.roadmap-page {
 }
 
 .about-section h2 {
+    font-family: 'Radley', serif; /* Use the Radley font only on splash page */
     font-size: 2.5rem;
     margin-bottom: 20px;
     text-align: center;
@@ -214,6 +230,7 @@ body.roadmap-page {
 }
 
 .about-section p {
+    font-family: 'Radley', serif; /* Use the Radley font only on splash page */
     font-size: 1.1rem;
     line-height: 1.8;
     text-align: justify;
