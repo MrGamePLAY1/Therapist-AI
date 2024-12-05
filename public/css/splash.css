@@ -5,6 +5,13 @@ body.about-page {
     height: 100%; /* Ensure body takes full height only on splash page */
     margin: 0; /* Remove default margin only on splash page */
     font-family: 'Radley', serif; /* Use the Radley font only on splash page */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Arrange items in a column */
+    background-image: url('/images/splash.jpg'); /* Correct path to your image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
 }
 
 .hero-section {
@@ -14,15 +21,13 @@ body.about-page {
     height: 100vh; /* Full viewport height */
     color: rgb(231, 231, 231); /* Text color */
     text-align: center; /* Center text */
-    background-image: url('/images/splash.jpg'); /* Correct path to your image */
-    background-size: cover; /* Cover the entire section */
-    background-position: center; /* Center the image */
     position: relative; /* Position relative for pseudo-element */
 }
 
 .hero-content {
-    max-width: 500px; /* Limit width for better readability */
-    padding: 15px; /* Reduced padding for compactness */
+    max-width: 700px; /* Limit width for better readability */
+    width: 600px;
+    padding: 65px; /* Reduced padding for compactness */
     background-color: rgba(0, 0, 0, 0.5); /* Slightly darker for better contrast */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4); /* Soft shadow for depth */
