@@ -259,11 +259,15 @@ body.about-page {
     }
 
     h1 {
-        font-size: 2em; /* Reduce font size for smaller screens */
+        font-size: 1em; /* Further reduce font size for very small screens */
+    }
+
+    h2 {
+        font-size: 1em; /* Further reduce font size for very small screens */
     }
 
     p {
-        font-size: 1em; /* Reduce font size for smaller screens */
+        font-size: 0.5em; /* Further reduce font size for very small screens */
     }
 
     .hero-button {
@@ -286,11 +290,15 @@ body.about-page {
     }
 
     h1 {
-        font-size: 1.8em; /* Further reduce font size for very small screens */
+        font-size: 1em; /* Further reduce font size for very small screens */
+    }
+
+    h2 {
+        font-size: 1em; /* Further reduce font size for very small screens */
     }
 
     p {
-        font-size: 0.9em; /* Further reduce font size for very small screens */
+        font-size: 1em; /* Further reduce font size for very small screens */
     }
 
     .hero-button {
