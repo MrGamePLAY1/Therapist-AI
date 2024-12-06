@@ -25,20 +25,36 @@
         <h2>Roadmap</h2>
         <div class="roadmap-timeline">
             <div class="roadmap-item">
-                <h3>Q1 2025</h3>
-                <p>Release of the initial version of our product with basic features.</p>
+                <h3>Phase 1: Immediate Enhancements</h3>
+                <p>
+                    <li>Release of the initial version of our product with basic features.</li>
+                    <li>Ability to create a profile.</li>
+                    <li>Emergency Support Links.</li>
+                </p>
             </div>
             <div class="roadmap-item">
-                <h3>Q2 2025</h3>
-                <p>Introduction of new AI-powered features and improvements to the user interface.</p>
+                    <h3>Phase 2: Personalization & Interactivity</h3>
+                    <p>
+                        <li>Guided Meditation & Breathing Exercises.</li>
+                        <li>Development of a mood tracking with analytics.</li>
+                        <li>Progress Badges and Achievements.</li>
+                    </p>
             </div>
             <div class="roadmap-item">
-                <h3>Q3 2025</h3>
-                <p>Expansion to new markets and localization for different languages.</p>
+                <h3>Phase 3: Community & Engagement</h3>
+                <p>
+                    <li>Weekly checkin prompts..</li>
+                    <li>Community spotlights.</li>
+                    <li>Seasonal Wellness Challenges.</li>
+                </p>
             </div>
             <div class="roadmap-item">
-                <h3>Q4 2025</h3>
-                <p>Launch of mobile applications for iOS and Android platforms.</p>
+                <h3>Phase 4: Future Innovations</h3>
+                <p>
+                    <li>Peer Support Forum Integration. (Social Club)</li>
+                    <li>Real-Time Sentiment Analysis.</li>
+                    <li>Session Logs for Reflection.</li>
+                </p>
             </div>
         </div>
     </div>

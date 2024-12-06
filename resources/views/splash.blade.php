@@ -21,7 +21,7 @@
             </div>
         </center>
 
-
+<!-- 
         <div class="content-page">
             <div class="bubble bg-dark">
                 <h2 class="article-title">Article Title</h2>
@@ -38,7 +38,7 @@
                 <p class="article-text">This is a short description of the article or content.</p>
                 <a href="#">Read more</a>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 
