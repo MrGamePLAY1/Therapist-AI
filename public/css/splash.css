@@ -12,6 +12,7 @@ body.splash-page
     background-image: url('/images/splash.jpg'); /* Correct path to your image */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the image */
+    
 }
 
 .disclaimer-text {
@@ -246,4 +247,62 @@ body.about-page {
     font-size: 1.1rem;
     line-height: 1.8;
     text-align: justify;
+}
+
+/* Mobile */
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .hero-content {
+        padding: 15px; /* Reduce padding for smaller screens */
+        width: 90%; /* Increase width for smaller screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Reduce font size for smaller screens */
+    }
+
+    p {
+        font-size: 1em; /* Reduce font size for smaller screens */
+    }
+
+    .hero-button {
+        padding: 8px 16px; /* Reduce padding for smaller screens */
+        font-size: 1em; /* Reduce font size for smaller screens */
+    }
+
+    .disclaimer-section {
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    .disclaimer-text {
+        font-size: 0.8em; /* Reduce font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content {
+        padding: 10px; /* Further reduce padding for very small screens */
+    }
+
+    h1 {
+        font-size: 1.8em; /* Further reduce font size for very small screens */
+    }
+
+    p {
+        font-size: 0.9em; /* Further reduce font size for very small screens */
+    }
+
+    .hero-button {
+        padding: 6px 12px; /* Further reduce padding for very small screens */
+        font-size: 0.9em; /* Further reduce font size for very small screens */
+    }
+
+    .disclaimer-section {
+        padding: 10px; /* Further reduce padding for very small screens */
+    }
+
+    .disclaimer-text {
+        font-size: 0.7em; /* Further reduce font size for very small screens */
+    }
 }
