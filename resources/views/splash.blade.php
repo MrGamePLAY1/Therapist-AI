@@ -20,7 +20,11 @@
                 <a href="{{ url('/chat') }}" class="hero-button">Get Started</a>
             </div>
         </center>
+    </div>
 
+    <div class="disclaimer-section">
+        <p class="disclaimer-text">Disclaimer: We have no way to see what you are saying to the therapist. Your conversations are private and secure.</p>
+    </div>
 <!-- 
         <div class="content-page">
             <div class="bubble bg-dark">
@@ -39,7 +43,7 @@
                 <a href="#">Read more</a>
             </div>
         </div> -->
-    </div>
+
 </body>
 
 </html>

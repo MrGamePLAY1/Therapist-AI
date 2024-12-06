@@ -14,6 +14,18 @@ body.splash-page
     background-position: center; /* Center the image */
 }
 
+.disclaimer-text {
+    font-size: 0.8em; /* Smaller font size for disclaimer */
+    color: rgba(255, 255, 255, 0.514); /* Lighter text color */
+    margin: 0;
+}
+
+.disclaimer-section {
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .hero-section {
     display: grid; /* Use flexbox for layout */
     justify-content: center; /* Center horizontally */
