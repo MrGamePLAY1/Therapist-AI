@@ -1,9 +1,3 @@
-<!-- resources/views/home.blade.php -->
- <!-- 
-    php artisan view:clear
-    php artisan cache:clear
-    php artisan serve
- -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
