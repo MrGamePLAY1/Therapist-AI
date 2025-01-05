@@ -130,6 +130,7 @@ body.roadmap-page {
 }
 
 .content-page {
+    /* margin-top: -20%;  */
     display: flex;
     border: 3px solid grey;
     justify-content: center;

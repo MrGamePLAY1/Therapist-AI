@@ -22,10 +22,6 @@
         </center>
     </div>
 
-    <div class="disclaimer-section">
-        <p class="disclaimer-text">Disclaimer: We have no way to see what you are saying to the therapist. Your conversations are private and secure.</p>
-    </div>
-<!-- 
         <div class="content-page">
             <div class="bubble bg-dark">
                 <h2 class="article-title">Article Title</h2>
@@ -42,8 +38,11 @@
                 <p class="article-text">This is a short description of the article or content.</p>
                 <a href="#">Read more</a>
             </div>
-        </div> -->
+        </div>
 
+    <footer class="disclaimer-section">
+        <p class="disclaimer-text">Disclaimer: We have no way to see what you are saying to the therapist. Your conversations are private and secure.</p>
+    </footer>
 </body>
 
 </html>
