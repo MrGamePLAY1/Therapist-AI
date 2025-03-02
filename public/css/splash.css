@@ -271,7 +271,7 @@ nav {
 
 /* Footer */
 footer {
-    background-color: var(--primary-dark);
+    background-color: #073d23;
     color: white;
     padding: 60px 0 30px;
     position: relative;
