@@ -107,7 +107,8 @@ nav {
 
 .primary-cta:hover {
     background-color: var(--background-dark);
-    transform: translateY(-2px);
+    color: var(--primary-color); /* Add this to maintain the text color */
+    transform: translateY(-3px);
 }
 
 .secondary-cta {
@@ -118,6 +119,7 @@ nav {
 
 .secondary-cta:hover {
     background-color: rgba(255, 255, 255, 0.1);
+    color: white;
     transform: translateY(-2px);
 }
 
@@ -506,7 +508,7 @@ footer {
 
 .roadmap-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); */
 }
 
 /* Position items on alternating sides */
@@ -792,7 +794,7 @@ footer {
 
 .value-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
 }
 
 .value-card h3 {
