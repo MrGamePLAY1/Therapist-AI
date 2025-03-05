@@ -38,7 +38,7 @@
                 <div class="features-grid">
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <!-- Icon placeholder -->
+                            <img src="{{ asset('images/support.png') }}" class="feature-icon-img" alt="Compassion Icon">
                         </div>
                         <h3>24/7 Support</h3>
                         <p>Access therapeutic conversations whenever you need them, day or night.</p>
@@ -46,7 +46,7 @@
                     
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <!-- Icon placeholder -->
+                            <img src="{{ asset('images/privacy.png') }}" class="feature-icon-img" alt="Privacy Icon">
                         </div>
                         <h3>Complete Privacy</h3>
                         <p>Your conversations remain confidential and secure at all times.</p>
@@ -54,7 +54,7 @@
                     
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <!-- Icon placeholder -->
+                            <img src="{{ asset('images/evidence.png') }}" class="feature-adj-icon-img" alt="Evidence Icon">
                         </div>
                         <h3>Evidence-Based</h3>
                         <p>Techniques grounded in proven therapeutic approaches.</p>
